@@ -12,26 +12,25 @@
  
 ## Виртуальное окружение: Windows
 Чтобы создать новое virtualenv, тебе нужно открыть командную строку и набрать python -m venv myvenv.
-«`{cmd} {D:\projects\python\lesson1_weather> python -m venv myvenv}«`
-D:\projects\python\lesson1_weather> python -m venv myvenv
+    D:\projects\python\lesson1_weather> python -m venv myvenv
 Указанная выше команда создаст директорию myvenv (или другую, в зависимости от выбранного тобой имени), которая будет содержать виртуальное окружение (по сути — набор файлов и папок).
 Запусти виртуальное окружение, выполнив:
 
-D:\projects\python\lesson1_weather>myvenv\Scripts\activate
+    D:\projects\python\lesson1_weather>myvenv\Scripts\activate
 
 Ты поймёшь, что virtualenv запущено, когда увидишь префикс (myvenv) в начале приглашения командной строки.
 После запуска virtualenv  мы должны удостовериться, что у тебя установлена последняя версия pip — программы, которую мы используем для установки модулей.
 
-(venv) D:\projects\python\lesson1_weather> python -m pip install --upgrade pip
+    (venv) D:\projects\python\lesson1_weather> python -m pip install --upgrade pip
 
 
 ## Виртуальное окружение: Linux и OS X
 В Linux и OS X достаточно набрать python3 -m venv myvenv, чтобы создать virtualenv.
 
-$ python3 -m venv myvenv
+    $ python3 -m venv myvenv
 Запусти виртуальное окружение, выполнив:
 
-$ source myvenv/bin/activate
+    $ source myvenv/bin/activate
 
 Ты поймёшь, что virtualenv запущено, когда увидишь префикс (myvenv) в начале приглашения командной строки.
 
