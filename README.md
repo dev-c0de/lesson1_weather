@@ -12,7 +12,9 @@
  
 ## Виртуальное окружение: Windows
 Чтобы создать новое virtualenv, тебе нужно открыть командную строку и набрать python -m venv myvenv.
+
     D:\projects\python\lesson1_weather> python -m venv myvenv
+    
 Указанная выше команда создаст директорию myvenv (или другую, в зависимости от выбранного тобой имени), которая будет содержать виртуальное окружение (по сути — набор файлов и папок).
 Запусти виртуальное окружение, выполнив:
 
@@ -28,6 +30,7 @@
 В Linux и OS X достаточно набрать python3 -m venv myvenv, чтобы создать virtualenv.
 
     $ python3 -m venv myvenv
+    
 Запусти виртуальное окружение, выполнив:
 
     $ source myvenv/bin/activate
@@ -38,7 +41,7 @@
 Файл с требованиями (requirements.txt) хранит список зависимостей, которые нужно установить с помощью pip install
 Теперь выполни команду pip install -r requirements.txt, чтобы установить все зависимости.
 
-(myvenv) ~$ pip install -r requirements.txt
+    (myvenv) ~$ pip install -r requirements.txt
 
 ## Результат работы скрипта 
 
