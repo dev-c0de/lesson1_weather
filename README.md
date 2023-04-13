@@ -42,6 +42,15 @@
 Теперь выполни команду pip install -r requirements.txt, чтобы установить все зависимости.
 
     (myvenv) ~$ pip install -r requirements.txt
+    
+## Запуск скрипта 
+### Windows
+
+    (venv) D:\projects\python\lesson1_weather> python script.py
+   
+### Linux и OS X
+
+    (myvenv) ~$ python3 script.py
 
 ## Результат работы скрипта 
 
