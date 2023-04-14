@@ -4,11 +4,11 @@ import requests
 def get_weather(places):
     url = 'https://wttr.in/'
     payload = {
-        "n": "",
-        "T": "",
-        "q": "",
-        "M": "",
-        "lang": "ru"
+        'n': '',
+        'T': '',
+        'q': '',
+        'M': '',
+        'lang': 'ru'
     }
     for place in places:
         response = requests.get(f'{url}{place}', params=payload)
